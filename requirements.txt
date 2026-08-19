@@ -1,0 +1,5 @@
+networkx
+sentence-transformers
+numpy
+python-dotenv
+arxiv

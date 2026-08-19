@@ -1,0 +1,440 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "paper",
+      "title": "Towards Self-cognitive Exploration: Metacognitive Knowledge Graph Retrieval Augmented Generation",
+      "id": "paper_01"
+    },
+    {
+      "node_type": "term",
+      "label": "retrieval augmented generation",
+      "aliases": [
+        "RAG",
+        "Retrieval Augmented Generation",
+        "Retrieval-Augmented Generation",
+        "Retrieval-augmented generation",
+        "retrieval augmented generation",
+        "retrieval-augmented generation"
+      ],
+      "id": "term:retrieval augmented generation"
+    },
+    {
+      "node_type": "term",
+      "label": "knowledge graph",
+      "aliases": [
+        "Knowledge Graph",
+        "Knowledge Graphs",
+        "knowledge graph"
+      ],
+      "id": "term:knowledge graph"
+    },
+    {
+      "node_type": "term",
+      "label": "kg rag",
+      "aliases": [
+        "KG-RAG"
+      ],
+      "id": "term:kg rag"
+    },
+    {
+      "node_type": "paper",
+      "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+      "id": "paper_02"
+    },
+    {
+      "node_type": "paper",
+      "title": "TagRAG: Tag-guided Hierarchical Knowledge Graph Retrieval-Augmented Generation",
+      "id": "paper_03"
+    },
+    {
+      "node_type": "paper",
+      "title": "FAIR GraphRAG: A Retrieval-Augmented Generation Approach for Semantic Data Analysis",
+      "id": "paper_04"
+    },
+    {
+      "node_type": "term",
+      "label": "question answering",
+      "aliases": [
+        "Question Answering",
+        "question answering",
+        "question-answering"
+      ],
+      "id": "term:question answering"
+    },
+    {
+      "node_type": "term",
+      "label": "graph based rag",
+      "aliases": [
+        "Graph-based RAG"
+      ],
+      "id": "term:graph based rag"
+    },
+    {
+      "node_type": "term",
+      "label": "large language model",
+      "aliases": [
+        "LLM",
+        "Large Language Model",
+        "Large Language Models"
+      ],
+      "id": "term:large language model"
+    },
+    {
+      "node_type": "paper",
+      "title": "Knowledge Graph-extended Retrieval Augmented Generation for Question Answering",
+      "id": "paper_05"
+    },
+    {
+      "node_type": "paper",
+      "title": "A Query-Aware Multi-Path Knowledge Graph Fusion Approach for Enhancing Retrieval-Augmented Generation in Large Language Models",
+      "id": "paper_06"
+    },
+    {
+      "node_type": "paper",
+      "title": "Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods under Knowledge Incompleteness",
+      "id": "paper_07"
+    },
+    {
+      "node_type": "paper",
+      "title": "Hybrid Context Retrieval Augmented Generation Pipeline: LLM-Augmented Knowledge Graphs and Vector Database for Accreditation Reporting Assistance",
+      "id": "paper_08"
+    },
+    {
+      "node_type": "term",
+      "label": "vector database",
+      "aliases": [
+        "vector database"
+      ],
+      "id": "term:vector database"
+    },
+    {
+      "node_type": "paper",
+      "title": "MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation",
+      "id": "paper_09"
+    },
+    {
+      "node_type": "paper",
+      "title": "Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation",
+      "id": "paper_10"
+    },
+    {
+      "node_type": "paper",
+      "title": "VAT-KG: Knowledge-Intensive Multimodal Knowledge Graph Dataset for Retrieval-Augmented Generation",
+      "id": "paper_11"
+    },
+    {
+      "node_type": "paper",
+      "title": "GFM-RAG: Graph Foundation Model for Retrieval Augmented Generation",
+      "id": "paper_12"
+    },
+    {
+      "node_type": "term",
+      "label": "graph neural network",
+      "aliases": [
+        "graph neural network"
+      ],
+      "id": "term:graph neural network"
+    },
+    {
+      "node_type": "paper",
+      "title": "Less is More: Denoising Knowledge Graphs For Retrieval Augmented Generation",
+      "id": "paper_13"
+    },
+    {
+      "node_type": "paper",
+      "title": "Personalizing Large Language Models using Retrieval Augmented Generation and Knowledge Graph",
+      "id": "paper_14"
+    },
+    {
+      "node_type": "paper",
+      "title": "BubbleRAG: Evidence-Driven Retrieval-Augmented Generation for Black-Box Knowledge Graphs",
+      "id": "paper_15"
+    },
+    {
+      "node_type": "paper",
+      "title": "A Knowledge Graph and a Tripartite Evaluation Framework Make Retrieval-Augmented Generation Scalable and Transparent",
+      "id": "paper_16"
+    },
+    {
+      "node_type": "paper",
+      "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+      "id": "paper_17"
+    },
+    {
+      "node_type": "term",
+      "label": "multi hop reasoning",
+      "aliases": [
+        "multi-hop reasoning"
+      ],
+      "id": "term:multi hop reasoning"
+    },
+    {
+      "node_type": "paper",
+      "title": "Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis",
+      "id": "paper_18"
+    },
+    {
+      "node_type": "paper",
+      "title": "Knowledge graph enhanced retrieval-augmented generation for failure mode and effects analysis",
+      "id": "paper_19"
+    },
+    {
+      "node_type": "paper",
+      "title": "SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation",
+      "id": "paper_20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_01",
+      "target": "term:retrieval augmented generation"
+    },
+    {
+      "source": "paper_01",
+      "target": "term:knowledge graph"
+    },
+    {
+      "source": "paper_01",
+      "target": "term:kg rag"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_02"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_03"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_04"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_05"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_06"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_07"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_08"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_09"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_10"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_11"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_12"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_13"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_14"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_15"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_16"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_17"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_18"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_19"
+    },
+    {
+      "source": "term:retrieval augmented generation",
+      "target": "paper_20"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_02"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_03"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_05"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_06"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_07"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_08"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_09"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_10"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_11"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_14"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_16"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_17"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_18"
+    },
+    {
+      "source": "term:knowledge graph",
+      "target": "paper_19"
+    },
+    {
+      "source": "term:kg rag",
+      "target": "paper_05"
+    },
+    {
+      "source": "term:kg rag",
+      "target": "paper_07"
+    },
+    {
+      "source": "paper_04",
+      "target": "term:question answering"
+    },
+    {
+      "source": "paper_04",
+      "target": "term:graph based rag"
+    },
+    {
+      "source": "paper_04",
+      "target": "term:large language model"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_05"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_07"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_09"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_11"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_13"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_19"
+    },
+    {
+      "source": "term:question answering",
+      "target": "paper_20"
+    },
+    {
+      "source": "term:graph based rag",
+      "target": "paper_13"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_05"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_07"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_08"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_10"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_13"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_14"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_16"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_17"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_18"
+    },
+    {
+      "source": "term:large language model",
+      "target": "paper_20"
+    },
+    {
+      "source": "paper_08",
+      "target": "term:vector database"
+    },
+    {
+      "source": "paper_12",
+      "target": "term:graph neural network"
+    },
+    {
+      "source": "paper_17",
+      "target": "term:multi hop reasoning"
+    }
+  ]
+}
