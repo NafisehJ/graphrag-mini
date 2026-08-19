@@ -10,6 +10,12 @@ A minimal GraphRAG pipeline that builds a knowledge graph from about 20 scientif
 
 The current rule-based extraction trades recall for precision. The next step is LLM-based entity and relation extraction.
 
+## Graph
+
+![Knowledge graph](results/graph.png)
+
+Node size reflects degree; papers are blue and terms are orange.
+
 ## Plan
 
 - [x] Collect and prepare scientific abstracts

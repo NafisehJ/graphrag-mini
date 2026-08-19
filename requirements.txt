@@ -3,3 +3,4 @@ sentence-transformers
 numpy
 python-dotenv
 arxiv
+matplotlib
